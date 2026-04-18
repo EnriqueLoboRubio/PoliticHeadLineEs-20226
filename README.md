@@ -27,9 +27,7 @@ To run the system, the **development and evaluation datasets from PoliticHeadlin
 
 Due to licensing restrictions, these datasets are not redistributed in this repository.
 
----
-
-### 🤖 Model
+## 🤖 Model
 
 The system uses the following bi-encoder model:
 
@@ -38,3 +36,10 @@ The system uses the following bi-encoder model:
 This model is **automatically downloaded** the first time the code is executed using the Sentence Transformers library, so no manual setup is required.
 
 Make sure you have an active internet connection on first run to allow the model to be retrieved.
+
+## 📦 Requirements
+
+To run the notebook and reproduce the experiments, install the required dependencies:
+
+```bash
+pip install -r requirements.txt
